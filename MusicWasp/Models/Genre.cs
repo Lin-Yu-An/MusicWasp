@@ -1,0 +1,30 @@
+﻿namespace MusicWasp.Models
+{
+    public enum Genre
+    {
+        Rock, 
+        Latin, 
+        Pop, 
+        Metal, 
+        Reggae, 
+        Dubstep, 
+        Hiphop, 
+        RnB,
+        Electronic, 
+        Techno, 
+        House,
+        Trance, 
+        Folk, 
+        Soul, 
+        Classical, 
+        Funk, 
+        Jazz,
+        Country, 
+        Blues, 
+        Rap, 
+        Punk, 
+        Indie, 
+        Disco, 
+        Ambient
+    }
+}
