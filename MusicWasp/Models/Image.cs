@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing.Printing;
 using System.Text;
 
 namespace MusicWasp.Models
@@ -23,7 +24,10 @@ namespace MusicWasp.Models
         {
 
         }
-
+        public void TESTING()
+        {
+            //asodasid
+        }
         public void RemoveImage()
         {
 
