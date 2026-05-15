@@ -1,0 +1,10 @@
+﻿<UserControl x:Class="MusicWasp.Views.SettingsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBlock Text="Settings" FontSize="24" HorizontalAlignment="Center"/>
+        <Button Content="Back to Home" 
+                Command="{Binding NavigateCommand}" 
+                CommandParameter="Home" Margin="0,5"/>
+    </StackPanel>
+</UserControl>
